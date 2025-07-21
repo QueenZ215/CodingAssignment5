@@ -91,7 +91,7 @@ fieldset{
 legend{
     font-weight:bold;
     color:#000000;
-    font: size 20px;
+    font: 20px;
     font-style:italic;
     border-radius: 15%;
     background:#4E53F4;
@@ -109,7 +109,7 @@ input{
 ol{
     list-style-type: lower-roman;
     margin:auto;
-    padding:0%;
+    padding:2%;
     font-family:'Gloria Hallelujah', cursive;
     color:#000000;
 
@@ -117,7 +117,7 @@ ol{
 ol li{
     list-style-type: upper-roman;
     margin:auto;
-    padding:0%;
+    padding:2%;
     font-family:'Gloria Hallelujah', cursive;
     color:#000000;
 
@@ -129,4 +129,78 @@ hr{
     width:auto;
     margin:auto;
     
+}
+
+/* page layout start */
+
+.page-layout {
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+  padding: 1rem;
+  
+}
+
+.title-bar {
+  grid-area: title;
+  background-color: #EFBEF1;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #06094a;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #A424A8;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+  grid-area: content;
+  background-color: #621566;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.sidebar section,
+.content section {
+  background-color: #fff0f0;
+  border: 2px solid #06094a;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.rate {
+  background-color: #A424A8;
+  
+}
+
+.convert {
+  background-color: #EFBEF1;
+}
+
+.ingredients {
+  background-color: #e6f7ff;
+}
+
+.directions {
+  background-color: #C1C3FB;
+}
+.page-footer{
+    grid-area: footer;
+    background-color: #A424A8;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
 }
