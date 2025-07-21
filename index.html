@@ -3,10 +3,12 @@
     <head>
         <meta name="author" content="Zo&#235; Coolbaugh">
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat&family=Comic+Neue&family=Gloria+Hallelujah&display=swap"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="css/style.css" rel="stylesheet" type="text/css" >
         <title>Missing East Coast Food?!</title>
     </head>
-    <body bgcolor="#ffccff" text="#0000cc">
+    <body>
         <h1>Missing East Coast Food?!</h1>
         <h2>Calzone Buffalo Chicken</h2>
         <p>Submitted by lukeybear2007 <a href="https://www.allrecipes.com/recipe/236201/buffalo-chicken-calzone/">https://www.allrecipes.com</a></p>
@@ -23,7 +25,20 @@
             <li>4 tablespoons vegetable oil, divided</li>
             <li>4 cups shredded mozzarella cheese</li>
         </ul>
-        <h3>Equipment:</h3>
+        <h3 class="rate">Rate This Recipe</h3>
+            <fieldset style="width: 250px;">
+                <legend>How difficult is this recipe?</legend>
+                <input type="radio" id="easy" name="easy"> Easy
+                <input type="radio" id="med" name="med">Intermediate
+                <input type="radio" id="hard" name="hard"> Hard
+            </fieldset>
+            <p>&nbsp;</p>
+            <h3>Conversion</h3>
+            <input type="text" id="tblspn" name ="tblspn">
+            =
+            <input type="text" id="cups" name="cups">
+
+        <!-- <h3>Equipment:</h3>
         <ul>
             <li>Oven</li>
             <li>12-inch pizza pan</li>
@@ -31,7 +46,7 @@
             <li>instant-read thermometer</li>
             <li>skillet</li>
             <li>Rolling Pin</li>
-        </ul>
+        </ul> -->
         <h3>Directions:</h3>
         <ol>
             <li>Preheat the oven to 410 degrees F (210 degrees C). Grease a 12-inch pizza pan.</li>

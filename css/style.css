@@ -1,0 +1,120 @@
+body{
+    background:fixed;
+    color:#000000;
+    font-family: 'Comic Neue', cursive;
+    margin:fixed;
+    padding:fixed;
+    line-height:fixed
+
+
+}
+h1{
+    color:#0D13B9;
+    font-family:'Caveat', cursive;
+    font-size:aliceblue;
+    text-align:aliceblue;
+    letter-spacing:;
+    text-transform:aliceblue
+
+}
+h2{
+    color:#0a0e8a;
+    font-family:'Caveat', cursive;
+    font-size:aliceblue;
+    text-align:aliceblue;
+    letter-spacing: ;
+    text-transform:aliceblue
+
+}
+p{
+    line-height: ;
+    font-size:large;
+    color:#000000;
+    font-style:aliceblue;
+    margin:auto;
+    text-indent:0%
+
+
+}
+figure{
+    border:0cap;
+    margin: ;
+    padding:0%;
+    background:fixed;
+    box-shadow:inset
+
+
+}
+figcaption{
+    font-style:italic;
+    text-align:center;
+    font-size:large;
+    color:#000000;
+    margin-top:auto;
+    
+}
+h3{
+    color:#06094a;
+    font-family:'Caveat', cursive;
+    font-size:aliceblue;
+    text-align:aliceblue;
+    letter-spacing:;
+    text-transform:aliceblue
+
+}
+ul{
+    list-style-type: style type;
+    margin:auto;
+    padding:0%;
+    font-family:'Gloria Hallelujah', cursive;
+    color:#000000;
+
+}
+li{
+    list-style-type: style type;
+    margin:auto;
+    padding:0%;
+    font-family:'Gloria Hallelujah', cursive;
+    color:#000000;
+
+}
+fieldset{
+    border:0cap;
+    padding:0%;
+    margin:auto;
+    background:fixed;
+    border-radius:0%;
+
+}
+legend{
+    font-weight:100;
+    color:#000000;
+    font-size:large;
+    font-style:italic;
+    
+}
+input{
+    border:0cap;
+    padding:0%;
+    font-size:large;
+    background-color:aliceblue;
+    color:#000000;
+    border-radius:0%;
+
+}
+ol{
+    list-style-type: style type;
+    margin:auto;
+    padding:0%;
+    font-family:'Gloria Hallelujah', cursive;
+    color:#000000;
+
+}
+hr{
+    border:0cap;
+    height:auto;
+    background:fixed;
+    width:auto;
+    margin:auto;
+    
+}
