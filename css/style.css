@@ -110,7 +110,7 @@ input{
 ol{
     list-style-type: lower-roman;
     margin:auto;
-    padding:2%;
+    padding:8%;
     font-family:'Gloria Hallelujah', cursive;
     color:#000000;
 
@@ -118,7 +118,7 @@ ol{
 ol li{
     list-style-type: upper-roman;
     margin:auto;
-    padding:2%;
+    padding:8%;
     font-family:'Gloria Hallelujah', cursive;
     color:#000000;
 
