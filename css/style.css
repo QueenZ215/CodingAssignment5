@@ -5,6 +5,7 @@ body{
     margin:auto;
     padding:50px;
     line-height:20px;
+    font-size: 1rem;
 
 
 }
@@ -36,8 +37,8 @@ h3{
 
 }
 p{
-    line-height: 15px;
-    font-size:16px;
+    line-height: 1rem;
+    font-size: 1rem;
     color:#000000;
     font-style:oblique;
     margin:auto;
@@ -199,7 +200,7 @@ hr{
     grid-area: footer;
     background-color: #A424A8;
     color: white;
-    text-align: center;
+    text-align:right;
     padding: 0.5rem;
     font-size: 0.9rem;
     border-radius: 8px;
